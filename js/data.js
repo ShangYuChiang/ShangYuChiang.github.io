@@ -1,18 +1,18 @@
 // All site text lives here. Edit this file to update content; never edit index.html for text.
 const SITE_DATA = {
   en: {
-    nav: { about: "About", skills: "Skills", experience: "Experience", teaching: "Teaching",
+    nav: { about: "About", skills: "Skills", education: "Education", experience: "Experience", teaching: "Teaching",
            projects: "Projects", publications: "Publications", awards: "Awards", contact: "Contact" },
     hero: {
       name: "Shang-Yu Chiang",
       nameAlt: "江尚瑀",
-      tagline: "AI Researcher & Lecturer — Medical Imaging AI · LLM/RAG",
-      desc: "Ph.D. in Biomedical Electronics and Bioinformatics, National Taiwan University."
+      tagline: "AI Researcher & Lecturer — Medical Imaging Model Development · Programming & Generative AI Education",
+      desc: "Ph.D., Graduate Institute of Biomedical Electronics and Bioinformatics, National Taiwan University."
     },
     about: {
       title: "About",
       paragraphs: [
-        "Dr. Shang-Yu Chiang holds a Ph.D. in Biomedical Electronics and Bioinformatics from National Taiwan University. Over nearly seven years of research, Dr. Chiang has focused on medical imaging AI — from computer-aided detection systems to deep learning diagnostic models — publishing in peer-reviewed journals including several Q1-ranked venues.",
+        "Dr. Shang-Yu Chiang holds a Ph.D. in Biomedical Electronics and Bioinformatics from National Taiwan University. Over more than a decade of research, Dr. Chiang has focused on medical imaging AI — from computer-aided detection systems to deep learning diagnostic models — publishing in peer-reviewed journals including several Q1-ranked venues.",
         "Since 2019, Dr. Chiang has served as an AI lecturer across universities, government agencies, and industry, teaching machine learning, generative AI, and applied AI. Current research centers on large language models, retrieval-augmented generation (RAG), and multimodal AI."
       ]
     },
@@ -28,6 +28,34 @@ const SITE_DATA = {
         { name: "AI & ML Frameworks", items: ["PyTorch", "TensorFlow", "Scikit-learn", "LangChain", "LlamaIndex"] },
         { name: "Cloud, AI Platforms & Tools", items: ["Azure AI", "Azure OpenAI", "GitHub", "Docker", "Travis CI"] },
         { name: "Web Development", items: ["HTML", "CSS", "JavaScript"] }
+      ]
+    },
+    education: {
+      title: "Education",
+      // thesisLabel 會接在論文題目前面；thesis 留空字串就不會顯示該行。
+      thesisLabel: "Thesis: ",
+      entries: [
+        {
+          degree: "Ph.D. in Biomedical Electronics and Bioinformatics",
+          org: "National Taiwan University",
+          dept: "Graduate Institute of Biomedical Electronics and Bioinformatics",
+          period: "Sep 2018 – Aug 2025",
+          thesis: ""
+        },
+        {
+          degree: "M.B.A. in Information and Finance Management",
+          org: "National Taipei University of Technology",
+          dept: "Institute of Information and Finance Management",
+          period: "Sep 2015 – Jun 2017",
+          thesis: ""
+        },
+        {
+          degree: "B.S. in Healthcare Information and Management",
+          org: "Ming Chuan University",
+          dept: "Department of Healthcare Information and Management",
+          period: "Sep 2011 – Aug 2015",
+          thesis: ""
+        }
       ]
     },
     experience: {
@@ -200,18 +228,18 @@ const SITE_DATA = {
     footer: "© 2026 Shang-Yu Chiang · Built with plain HTML/CSS/JS"
   },
   zh: {
-    nav: { about: "關於我", skills: "技能", experience: "經歷", teaching: "教學",
+    nav: { about: "關於我", skills: "技能", education: "學歷", experience: "經歷", teaching: "教學",
            projects: "專案", publications: "著作", awards: "獲獎", contact: "聯絡" },
     hero: {
       name: "江尚瑀",
       nameAlt: "Shang-Yu Chiang",
-      tagline: "AI 研究者・講師 — 醫學影像 AI · LLM/RAG",
+      tagline: "AI 研究者・講師 — 醫學影像模型開發 · 程式設計與生成式AI教學",
       desc: "國立臺灣大學生醫電子與資訊學研究所 博士。"
     },
     about: {
       title: "關於我",
       paragraphs: [
-        "江尚瑀擁有國立臺灣大學生醫電子與資訊學研究所博士學位，投入醫學影像人工智慧研究近七年，研究範疇涵蓋電腦輔助偵測系統到深度學習診斷模型，並在多本同儕審查期刊（包含數篇Q1等級）發表研究成果。",
+        "江尚瑀擁有國立臺灣大學生醫電子與資訊學研究所博士學位，投入醫學影像人工智慧研究近十餘年，研究範疇涵蓋電腦輔助偵測系統到深度學習診斷模型，並在多本同儕審查期刊（包含數篇Q1等級）發表研究成果。",
         "自2019年起橫跨大學、政府機關與產業界擔任人工智慧講師，教授機器學習、生成式人工智慧與應用AI課程。目前研究聚焦於大型語言模型、檢索增強生成（RAG）與多模態人工智慧。"
       ]
     },
@@ -227,6 +255,34 @@ const SITE_DATA = {
         { name: "AI／機器學習框架", items: ["PyTorch", "TensorFlow", "Scikit-learn", "LangChain", "LlamaIndex"] },
         { name: "雲端平台與工具", items: ["Azure AI", "Azure OpenAI", "GitHub", "Docker", "Travis CI"] },
         { name: "網頁開發", items: ["HTML", "CSS", "JavaScript"] }
+      ]
+    },
+    education: {
+      title: "學歷",
+      // thesisLabel 會接在論文題目前面；thesis 留空字串就不會顯示該行。
+      thesisLabel: "論文題目：",
+      entries: [
+        {
+          degree: "博士",
+          org: "國立臺灣大學",
+          dept: "生醫電子與資訊學研究所",
+          period: "2018年9月 – 2025年8月",
+          thesis: ""
+        },
+        {
+          degree: "碩士",
+          org: "國立臺北科技大學",
+          dept: "資訊與財金管理研究所",
+          period: "2015年9月 – 2017年6月",
+          thesis: ""
+        },
+        {
+          degree: "學士",
+          org: "銘傳大學",
+          dept: "醫療資訊與管理學系",
+          period: "2011年9月 – 2015年8月",
+          thesis: ""
+        }
       ]
     },
     experience: {

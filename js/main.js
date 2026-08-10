@@ -56,6 +56,23 @@ function renderSkills(t) {
     </div>`;
 }
 
+function renderEducation(t) {
+  // 學歷時間軸。thesis 欄位可留空字串，留空就不顯示那一行。
+  document.getElementById("education").innerHTML = `
+    <h2 class="section-title">${t.education.title}</h2>
+    <div class="timeline">
+      ${t.education.entries.map(e => `
+        <div class="tl-entry">
+          <div class="tl-period">${e.period}</div>
+          <div class="tl-body">
+            <h3>${e.degree}</h3>
+            <div class="tl-org">${e.org}${e.dept ? " · " + e.dept : ""}</div>
+            ${e.thesis ? `<ul><li>${t.education.thesisLabel}${e.thesis}</li></ul>` : ""}
+          </div>
+        </div>`).join("")}
+    </div>`;
+}
+
 function renderExperience(t) {
   document.getElementById("experience").innerHTML = `
     <h2 class="section-title">${t.experience.title}</h2>
@@ -135,6 +152,7 @@ function renderAll(lang) {
   renderHero(t);
   renderAbout(t);
   renderSkills(t);
+  renderEducation(t);
   renderExperience(t);
   renderTeaching(t);
   renderProjects(t);
