@@ -151,8 +151,8 @@ function renderAll(lang) {
   renderNav(t);
   renderHero(t);
   renderAbout(t);
-  renderSkills(t);
   renderEducation(t);
+  renderSkills(t);
   renderExperience(t);
   renderTeaching(t);
   renderProjects(t);

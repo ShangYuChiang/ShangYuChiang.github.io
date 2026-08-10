@@ -1,7 +1,7 @@
 // All site text lives here. Edit this file to update content; never edit index.html for text.
 const SITE_DATA = {
   en: {
-    nav: { about: "About", skills: "Skills", education: "Education", experience: "Experience", teaching: "Teaching",
+    nav: { about: "About", education: "Education", skills: "Skills", experience: "Experience", teaching: "Teaching",
            projects: "Projects", publications: "Publications", awards: "Awards", contact: "Contact" },
     hero: {
       name: "Shang-Yu Chiang",
@@ -53,7 +53,7 @@ const SITE_DATA = {
           degree: "B.S. in Healthcare Information and Management",
           org: "Ming Chuan University",
           dept: "Department of Healthcare Information and Management",
-          period: "Sep 2011 – Aug 2015",
+          period: "Sep 2011 – Jun 2015",
           thesis: ""
         }
       ]
@@ -228,7 +228,7 @@ const SITE_DATA = {
     footer: "© 2026 Shang-Yu Chiang · Built with plain HTML/CSS/JS"
   },
   zh: {
-    nav: { about: "關於我", skills: "技能", education: "學歷", experience: "經歷", teaching: "教學",
+    nav: { about: "關於我", education: "學歷", skills: "技能", experience: "經歷", teaching: "教學",
            projects: "專案", publications: "著作", awards: "獲獎", contact: "聯絡" },
     hero: {
       name: "江尚瑀",
@@ -280,7 +280,7 @@ const SITE_DATA = {
           degree: "學士",
           org: "銘傳大學",
           dept: "醫療資訊與管理學系",
-          period: "2011年9月 – 2015年8月",
+          period: "2011年9月 – 2015年6月",
           thesis: ""
         }
       ]
