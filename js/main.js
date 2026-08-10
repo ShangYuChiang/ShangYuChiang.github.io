@@ -57,7 +57,8 @@ function renderSkills(t) {
 }
 
 function renderEducation(t) {
-  // 學歷時間軸。thesis 欄位可留空字串，留空就不顯示那一行。
+  // 學歷時間軸。items 是該學位期間的研究成果（計畫／論文／獲獎），可留空陣列不顯示。
+  // 每筆 items 可選填 tag（例如 Q1 / Q2 / Best Paper），會顯示成標籤。
   document.getElementById("education").innerHTML = `
     <h2 class="section-title">${t.education.title}</h2>
     <div class="timeline">
@@ -67,7 +68,9 @@ function renderEducation(t) {
           <div class="tl-body">
             <h3>${e.degree}</h3>
             <div class="tl-org">${e.org}${e.dept ? " · " + e.dept : ""}</div>
-            ${e.thesis ? `<ul><li>${t.education.thesisLabel}${e.thesis}</li></ul>` : ""}
+            ${e.thesis ? `<p class="edu-thesis"><span class="edu-thesis-label">${t.education.thesisLabel}</span>${e.thesis}</p>` : ""}
+            ${(e.items && e.items.length) ? `<ul>${e.items.map(i =>
+              `<li>${i.tag ? `<span class="edu-tag">${i.tag}</span>` : ""}${i.text}</li>`).join("")}</ul>` : ""}
           </div>
         </div>`).join("")}
     </div>`;

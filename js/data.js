@@ -32,29 +32,42 @@ const SITE_DATA = {
     },
     education: {
       title: "Education",
-      // thesisLabel 會接在論文題目前面；thesis 留空字串就不會顯示該行。
-      thesisLabel: "Thesis: ",
+      // thesis = 該學位的畢業論文題目（留空字串就不顯示這一行）。
+      // items = 該學位期間的研究成果（計畫／論文／獲獎）。留空陣列 [] 就不顯示。
+      // 每筆 items 可選填 tag（Q1 / Q2 / Best Paper 等），會顯示成標籤。
+      thesisLabel: "Dissertation: ",
       entries: [
         {
-          degree: "Ph.D. in Biomedical Electronics and Bioinformatics",
+          degree: "Doctor of Biomedical Electronics and Bioinformatics",
           org: "National Taiwan University",
           dept: "Graduate Institute of Biomedical Electronics and Bioinformatics",
           period: "Sep 2018 – Aug 2025",
-          thesis: ""
+          thesis: "Stage-wise Diagnosis of NAFLD Progression from Steatosis to Fibrosis on Abdominal Ultrasound Images",
+          items: [
+            { tag: "Q2", text: "Juan, C. J., Wang, C. S., Lee, B. Y., Chiang, S. Y., Yeh, C. C., Cho, D. Y., &amp; Shen, W. C. (2021). Integration of genetic programming and tabu search mechanism for automatic detection of magnetic resonance imaging in cervical spondylosis." },
+            { tag: "Q1", text: "Chiang, S. Y., Wang, Y. W., Su, P. Y., Chang, Y. Y., Yen, H. H., &amp; Chang, R. F. (2025). PBCS-ConvNeXt: Convolutional Network-Based Automatic Diagnosis of Non-alcoholic Fatty Liver in Abdominal Ultrasound Images. Journal of Imaging Informatics in Medicine, 1-16." }
+          ]
         },
         {
-          degree: "M.B.A. in Information and Finance Management",
+          degree: "Master of Information and Finance Management",
           org: "National Taipei University of Technology",
           dept: "Institute of Information and Finance Management",
-          period: "Sep 2015 – Jun 2017",
-          thesis: ""
+          period: "Aug 2015 – Jun 2017",
+          thesis: "Integrate Genetic Programming with TABU Search to Establish a Prediction Model of Cervical Spine Disease",
+          items: [
+            { tag: "Best Paper", text: "The 4th Multidisciplinary International Social Network Conference — Prediction Model of Cervical Spine Disease Established by Genetic Programming." },
+            { tag: "", text: "The 12th Asian-Oceanian Congress of Neuroradiology — Integrate Genetic Programming with TABU Search to Establish a Prediction Model of Cervical Spine Disease." }
+          ]
         },
         {
-          degree: "B.S. in Healthcare Information and Management",
+          degree: "Bachelor of Healthcare Information and Management",
           org: "Ming Chuan University",
           dept: "Department of Healthcare Information and Management",
           period: "Sep 2011 – Jun 2015",
-          thesis: ""
+          thesis: "",
+          items: [
+            { tag: "", text: "MOST Undergraduate Research Grant, MOST 103-2815-C-130-108-E." }
+          ]
         }
       ]
     },
@@ -259,29 +272,42 @@ const SITE_DATA = {
     },
     education: {
       title: "學歷",
-      // thesisLabel 會接在論文題目前面；thesis 留空字串就不會顯示該行。
-      thesisLabel: "論文題目：",
+      // thesis = 該學位的畢業論文題目（留空字串就不顯示這一行）。
+      // items = 該學位期間的研究成果（計畫／論文／獲獎）。留空陣列 [] 就不顯示。
+      // 每筆 items 可選填 tag（Q1 / Q2 / 最佳論文 等），會顯示成標籤。
+      thesisLabel: "畢業論文：",
       entries: [
         {
           degree: "博士",
           org: "國立臺灣大學",
           dept: "生醫電子與資訊學研究所",
           period: "2018年9月 – 2025年8月",
-          thesis: ""
+          thesis: "基於腹部超音波影像之非酒精性肝病從脂肪肝至肝纖維化的階段性診斷",
+          items: [
+            { tag: "Q2", text: "Juan, C. J., Wang, C. S., Lee, B. Y., Chiang, S. Y., Yeh, C. C., Cho, D. Y., &amp; Shen, W. C. (2021). Integration of genetic programming and tabu search mechanism for automatic detection of magnetic resonance imaging in cervical spondylosis." },
+            { tag: "Q1", text: "Chiang, S. Y., Wang, Y. W., Su, P. Y., Chang, Y. Y., Yen, H. H., &amp; Chang, R. F. (2025). PBCS-ConvNeXt: Convolutional Network-Based Automatic Diagnosis of Non-alcoholic Fatty Liver in Abdominal Ultrasound Images. Journal of Imaging Informatics in Medicine, 1-16." }
+          ]
         },
         {
           degree: "碩士",
           org: "國立臺北科技大學",
           dept: "資訊與財金管理研究所",
-          period: "2015年9月 – 2017年6月",
-          thesis: ""
+          period: "2015年8月 – 2017年6月",
+          thesis: "結合基因規劃法與禁忌搜尋法建立頸椎疾病預測模型",
+          items: [
+            { tag: "最佳論文", text: "The 4th Multidisciplinary International Social Network Conference — Prediction Model of Cervical Spine Disease Established by Genetic Programming." },
+            { tag: "", text: "The 12th Asian-Oceanian Congress of Neuroradiology — Integrate Genetic Programming with TABU Search to Establish a Prediction Model of Cervical Spine Disease." }
+          ]
         },
         {
           degree: "學士",
           org: "銘傳大學",
           dept: "醫療資訊與管理學系",
           period: "2011年9月 – 2015年6月",
-          thesis: ""
+          thesis: "",
+          items: [
+            { tag: "", text: "科技部大專學生研究計畫　MOST 103-2815-C-130-108-E。" }
+          ]
         }
       ]
     },

@@ -111,6 +111,16 @@ a:hover { text-decoration: underline; }
 .tl-org { color: var(--text-muted); font-size: .92rem; margin: .15rem 0 .5rem; }
 .tl-body ul { padding-left: 1.2rem; color: var(--text-muted); font-size: .95rem; }
 
+/* 學歷：畢業論文題目與成果標籤 */
+.edu-thesis { font-size: .95rem; margin: .1rem 0 .5rem; line-height: 1.5; }
+.edu-thesis-label { color: var(--accent); font-weight: 600; margin-right: .3rem; }
+.edu-tag {
+  display: inline-block; background: var(--bg-alt); border: 1px solid var(--border);
+  border-radius: 999px; padding: 0 .55rem; margin-right: .45rem;
+  font-size: .75rem; font-weight: 600; color: var(--accent); white-space: nowrap;
+}
+.tl-body li { margin-bottom: .35rem; }
+
 /* ===== Lists, badges ===== */
 .section-intro { color: var(--text-muted); margin-bottom: 1rem; }
 .teach-list, .pub-list, .award-list { padding-left: 1.2rem; }
