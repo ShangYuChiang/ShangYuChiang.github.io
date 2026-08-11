@@ -44,8 +44,8 @@ const SITE_DATA = {
           period: "Sep 2018 – Aug 2025",
           thesis: "Stage-wise Diagnosis of NAFLD Progression from Steatosis to Fibrosis on Abdominal Ultrasound Images",
           items: [
-            { tag: "Q2", text: "Juan, C. J., Wang, C. S., Lee, B. Y., Chiang, S. Y., Yeh, C. C., Cho, D. Y., &amp; Shen, W. C. (2021). Integration of genetic programming and tabu search mechanism for automatic detection of magnetic resonance imaging in cervical spondylosis." },
-            { tag: "Q1", text: "Chiang, S. Y., Wang, Y. W., Su, P. Y., Chang, Y. Y., Yen, H. H., &amp; Chang, R. F. (2025). PBCS-ConvNeXt: Convolutional Network-Based Automatic Diagnosis of Non-alcoholic Fatty Liver in Abdominal Ultrasound Images. Journal of Imaging Informatics in Medicine, 1-16." }
+            { tag: "Q2", text: "Juan, C. J., Wang, C. S., Lee, B. Y., Chiang, S. Y., Yeh, C. C., Cho, D. Y., &amp; Shen, W. C. (2021). Integration of genetic programming and tabu search mechanism for automatic detection of magnetic resonance imaging in cervical spondylosis" },
+            { tag: "Q1", text: "Chiang, S. Y., Wang, Y. W., Su, P. Y., Chang, Y. Y., Yen, H. H., &amp; Chang, R. F. (2025). PBCS-ConvNeXt: Convolutional Network-Based Automatic Diagnosis of Non-alcoholic Fatty Liver in Abdominal Ultrasound Images. Journal of Imaging Informatics in Medicine, 1-16" }
           ]
         },
         {
@@ -55,8 +55,8 @@ const SITE_DATA = {
           period: "Aug 2015 – Jun 2017",
           thesis: "Integrate Genetic Programming with TABU Search to Establish a Prediction Model of Cervical Spine Disease",
           items: [
-            { tag: "Best Paper", text: "The 4th Multidisciplinary International Social Network Conference — Prediction Model of Cervical Spine Disease Established by Genetic Programming." },
-            { tag: "", text: "The 12th Asian-Oceanian Congress of Neuroradiology — Integrate Genetic Programming with TABU Search to Establish a Prediction Model of Cervical Spine Disease." }
+            { tag: "Best Paper", text: "The 4th Multidisciplinary International Social Network Conference — Prediction Model of Cervical Spine Disease Established by Genetic Programming" },
+            { tag: "", text: "The 12th Asian-Oceanian Congress of Neuroradiology — Integrate Genetic Programming with TABU Search to Establish a Prediction Model of Cervical Spine Disease" }
           ]
         },
         {
@@ -66,7 +66,7 @@ const SITE_DATA = {
           period: "Sep 2011 – Jun 2015",
           thesis: "",
           items: [
-            { tag: "", text: "MOST Undergraduate Research Grant, MOST 103-2815-C-130-108-E." }
+            { tag: "", text: "MOST Undergraduate Research Grant, MOST 103-2815-C-130-108-E" }
           ]
         }
       ]
@@ -202,8 +202,8 @@ const SITE_DATA = {
       journalHeading: "Journal Articles",
       journals: [
         { badge: "Q1", citation: "Wang, Y. W., Huang, T. C., <strong>Chiang, S. Y.</strong>, Chen, Y. J., Chang, P. Y., & Chang, R. F. (2026). Dual-Phase Computed Tomography-Based Deep Learning Architecture for Three-Year Survival Prediction in Hepatocellular Carcinoma. Journal of Imaging Informatics in Medicine, 1-13." },
-        { badge: "Q1", citation: "<strong>Chiang, S. Y.</strong>, Wang, Y. W., Su, P. Y., Chang, Y. Y., Yen, H. H., & Chang, R. F. (2025). PBCS-ConvNeXt: Convolutional Network-Based Automatic Diagnosis of Non-alcoholic Fatty Liver in Abdominal Ultrasound Images. Journal of Imaging Informatics in Medicine, 1-16." },
-        { badge: "Q2", citation: "Juan, C. J., Wang, C. S., Lee, B. Y., <strong>Chiang, S. Y.</strong>, Yeh, C. C., Cho, D. Y., & Shen, W. C. (2021). Integration of genetic programming and tabu search mechanism for automatic detection of magnetic resonance imaging in cervical spondylosis." },
+        { badge: "Q1", citation: "<strong>Chiang, S. Y.</strong>, Wang, Y. W., Su, P. Y., Chang, Y. Y., Yen, H. H., & Chang, R. F. (2025). PBCS-ConvNeXt: Convolutional Network-Based Automatic Diagnosis of Non-alcoholic Fatty Liver in Abdominal Ultrasound Images. Journal of Imaging Informatics in Medicine, 1-16" },
+        { badge: "Q2", citation: "Juan, C. J., Wang, C. S., Lee, B. Y., <strong>Chiang, S. Y.</strong>, Yeh, C. C., Cho, D. Y., & Shen, W. C. (2021). Integration of genetic programming and tabu search mechanism for automatic detection of magnetic resonance imaging in cervical spondylosis" },
         { badge: "Q1", citation: "Feng, P. H., Chen, T. T., Lin, Y. T., <strong>Chiang, S. Y.</strong>, & Lo, C. M. (2018). Classification of lung cancer subtypes based on autofluorescence bronchoscopic pattern recognition: A preliminary study. Computer Methods and Programs in Biomedicine, 163, 33-38." }
       ],
       confHeading: "Conference Papers",
@@ -284,8 +284,8 @@ const SITE_DATA = {
           period: "2018年9月 – 2025年8月",
           thesis: "基於腹部超音波影像之非酒精性肝病從脂肪肝至肝纖維化的階段性診斷",
           items: [
-            { tag: "Q2", text: "Juan, C. J., Wang, C. S., Lee, B. Y., Chiang, S. Y., Yeh, C. C., Cho, D. Y., &amp; Shen, W. C. (2021). Integration of genetic programming and tabu search mechanism for automatic detection of magnetic resonance imaging in cervical spondylosis." },
-            { tag: "Q1", text: "Chiang, S. Y., Wang, Y. W., Su, P. Y., Chang, Y. Y., Yen, H. H., &amp; Chang, R. F. (2025). PBCS-ConvNeXt: Convolutional Network-Based Automatic Diagnosis of Non-alcoholic Fatty Liver in Abdominal Ultrasound Images. Journal of Imaging Informatics in Medicine, 1-16." }
+            { tag: "Q2", text: "Juan, C. J., Wang, C. S., Lee, B. Y., Chiang, S. Y., Yeh, C. C., Cho, D. Y., &amp; Shen, W. C. (2021). Integration of genetic programming and tabu search mechanism for automatic detection of magnetic resonance imaging in cervical spondylosis" },
+            { tag: "Q1", text: "Chiang, S. Y., Wang, Y. W., Su, P. Y., Chang, Y. Y., Yen, H. H., &amp; Chang, R. F. (2025). PBCS-ConvNeXt: Convolutional Network-Based Automatic Diagnosis of Non-alcoholic Fatty Liver in Abdominal Ultrasound Images. Journal of Imaging Informatics in Medicine, 1-16" }
           ]
         },
         {
@@ -295,8 +295,8 @@ const SITE_DATA = {
           period: "2015年8月 – 2017年6月",
           thesis: "結合基因規劃法與禁忌搜尋法建立頸椎疾病預測模型",
           items: [
-            { tag: "最佳論文", text: "The 4th Multidisciplinary International Social Network Conference — Prediction Model of Cervical Spine Disease Established by Genetic Programming." },
-            { tag: "", text: "The 12th Asian-Oceanian Congress of Neuroradiology — Integrate Genetic Programming with TABU Search to Establish a Prediction Model of Cervical Spine Disease." }
+            { tag: "最佳論文", text: "The 4th Multidisciplinary International Social Network Conference — Prediction Model of Cervical Spine Disease Established by Genetic Programming" },
+            { tag: "", text: "The 12th Asian-Oceanian Congress of Neuroradiology — Integrate Genetic Programming with TABU Search to Establish a Prediction Model of Cervical Spine Disease" }
           ]
         },
         {
@@ -306,7 +306,7 @@ const SITE_DATA = {
           period: "2011年9月 – 2015年6月",
           thesis: "",
           items: [
-            { tag: "", text: "科技部大專學生研究計畫　MOST 103-2815-C-130-108-E。" }
+            { tag: "", text: "科技部大專學生研究計畫　MOST 103-2815-C-130-108-E" }
           ]
         }
       ]
@@ -442,8 +442,8 @@ const SITE_DATA = {
       journalHeading: "期刊論文",
       journals: [
         { badge: "Q1", citation: "Wang, Y. W., Huang, T. C., <strong>Chiang, S. Y.</strong>, Chen, Y. J., Chang, P. Y., & Chang, R. F. (2026). Dual-Phase Computed Tomography-Based Deep Learning Architecture for Three-Year Survival Prediction in Hepatocellular Carcinoma. Journal of Imaging Informatics in Medicine, 1-13." },
-        { badge: "Q1", citation: "<strong>Chiang, S. Y.</strong>, Wang, Y. W., Su, P. Y., Chang, Y. Y., Yen, H. H., & Chang, R. F. (2025). PBCS-ConvNeXt: Convolutional Network-Based Automatic Diagnosis of Non-alcoholic Fatty Liver in Abdominal Ultrasound Images. Journal of Imaging Informatics in Medicine, 1-16." },
-        { badge: "Q2", citation: "Juan, C. J., Wang, C. S., Lee, B. Y., <strong>Chiang, S. Y.</strong>, Yeh, C. C., Cho, D. Y., & Shen, W. C. (2021). Integration of genetic programming and tabu search mechanism for automatic detection of magnetic resonance imaging in cervical spondylosis." },
+        { badge: "Q1", citation: "<strong>Chiang, S. Y.</strong>, Wang, Y. W., Su, P. Y., Chang, Y. Y., Yen, H. H., & Chang, R. F. (2025). PBCS-ConvNeXt: Convolutional Network-Based Automatic Diagnosis of Non-alcoholic Fatty Liver in Abdominal Ultrasound Images. Journal of Imaging Informatics in Medicine, 1-16" },
+        { badge: "Q2", citation: "Juan, C. J., Wang, C. S., Lee, B. Y., <strong>Chiang, S. Y.</strong>, Yeh, C. C., Cho, D. Y., & Shen, W. C. (2021). Integration of genetic programming and tabu search mechanism for automatic detection of magnetic resonance imaging in cervical spondylosis" },
         { badge: "Q1", citation: "Feng, P. H., Chen, T. T., Lin, Y. T., <strong>Chiang, S. Y.</strong>, & Lo, C. M. (2018). Classification of lung cancer subtypes based on autofluorescence bronchoscopic pattern recognition: A preliminary study. Computer Methods and Programs in Biomedicine, 163, 33-38." }
       ],
       confHeading: "研討會論文",
