@@ -3,31 +3,33 @@ const SITE_DATA = {
   en: {
     nav: { about: "About", education: "Education", skills: "Skills", experience: "Experience", teaching: "Teaching",
            projects: "Projects", publications: "Publications", awards: "Awards", contact: "Contact" },
+    ui: {
+      detailsExpand: "Details ▾",
+      detailsCollapse: "Details ▴",
+      print: "Print / Save as PDF",
+      backToTop: "Back to top"
+    },
     hero: {
       name: "Shang-Yu Chiang",
       nameAlt: "江尚瑀",
       tagline: "AI Researcher & Lecturer — Medical Imaging Model Development · Programming & Generative AI Education",
-      desc: "Ph.D., Graduate Institute of Biomedical Electronics and Bioinformatics, National Taiwan University."
+      desc: "Ph.D., Graduate Institute of Biomedical Electronics and Bioinformatics, National Taiwan University.",
+      roles: ["Medical Imaging AI Researcher", "LLM & RAG Engineer", "Deep Learning Practitioner", "AI Lecturer & Speaker"]
+    },
+    stats: {
+      title: "By the Numbers",
+      items: [
+        { key: "publications", label: "Publications", suffix: "" },
+        { key: "teaching", label: "Teaching Engagements", suffix: "+" },
+        { key: "awards", label: "Competition Awards", suffix: "" },
+        { key: "years", label: "Years Lecturing", suffix: "+" }
+      ]
     },
     about: {
       title: "About",
       paragraphs: [
         "Dr. Shang-Yu Chiang holds a Ph.D. in Biomedical Electronics and Bioinformatics from National Taiwan University. Over more than a decade of research, Dr. Chiang has focused on medical imaging AI — from computer-aided detection systems to deep learning diagnostic models — publishing in peer-reviewed journals including several Q1-ranked venues.",
         "Since 2019, Dr. Chiang has served as an AI lecturer across universities, government agencies, and industry, teaching machine learning, generative AI, and applied AI. Current research centers on large language models, retrieval-augmented generation (RAG), and multimodal AI."
-      ]
-    },
-    skills: {
-      title: "Skills",
-      groups: [
-        { name: "Research Areas", items: [
-          "Artificial Intelligence, Machine Learning, Deep Learning & Generative AI",
-          "Medical Image Processing, Computer-Aided Diagnosis, NLP & Large Language Models",
-          "Retrieval-Augmented Generation (RAG), Knowledge-Base QA & Multimodal / Cross-Modal Learning"
-        ] },
-        { name: "Programming Languages", items: ["Python", "C#", "C/C++", "R", "MATLAB"] },
-        { name: "AI & ML Frameworks", items: ["PyTorch", "TensorFlow", "Scikit-learn", "LangChain", "LlamaIndex"] },
-        { name: "Cloud, AI Platforms & Tools", items: ["Azure AI", "Azure OpenAI", "GitHub", "Docker", "Travis CI"] },
-        { name: "Web Development", items: ["HTML", "CSS", "JavaScript"] }
       ]
     },
     education: {
@@ -69,6 +71,20 @@ const SITE_DATA = {
             { tag: "", text: "MOST Undergraduate Research Grant, MOST 103-2815-C-130-108-E" }
           ]
         }
+      ]
+    },
+    skills: {
+      title: "Skills",
+      groups: [
+        { name: "Research Areas", items: [
+          "Artificial Intelligence, Machine Learning, Deep Learning & Generative AI",
+          "Medical Image Processing, Computer-Aided Diagnosis, NLP & Large Language Models",
+          "Retrieval-Augmented Generation (RAG), Knowledge-Base QA & Multimodal / Cross-Modal Learning"
+        ] },
+        { name: "Programming Languages", items: ["Python", "C#", "C/C++", "R", "MATLAB"] },
+        { name: "AI & ML Frameworks", items: ["PyTorch", "TensorFlow", "Scikit-learn", "LangChain", "LlamaIndex"] },
+        { name: "Cloud, AI Platforms & Tools", items: ["Azure AI", "Azure OpenAI", "GitHub", "Docker", "Travis CI"] },
+        { name: "Web Development", items: ["HTML", "CSS", "JavaScript"] }
       ]
     },
     experience: {
@@ -243,31 +259,33 @@ const SITE_DATA = {
   zh: {
     nav: { about: "關於我", education: "學歷", skills: "技能", experience: "經歷", teaching: "教學",
            projects: "專案", publications: "著作", awards: "獲獎", contact: "聯絡" },
+    ui: {
+      detailsExpand: "詳細內容 ▾",
+      detailsCollapse: "詳細內容 ▴",
+      print: "列印 / 儲存為 PDF",
+      backToTop: "回到頂部"
+    },
     hero: {
       name: "江尚瑀",
       nameAlt: "Shang-Yu Chiang",
       tagline: "AI 研究者・講師 — 醫學影像模型開發 · 程式設計與生成式AI教學",
-      desc: "國立臺灣大學生醫電子與資訊學研究所 博士。"
+      desc: "國立臺灣大學生醫電子與資訊學研究所 博士。",
+      roles: ["醫學影像 AI 研究者", "LLM 與 RAG 工程師", "深度學習實務者", "AI 講師與講者"]
+    },
+    stats: {
+      title: "數字實績",
+      items: [
+        { key: "publications", label: "學術著作", suffix: "" },
+        { key: "teaching", label: "教學場次", suffix: "+" },
+        { key: "awards", label: "競賽獲獎", suffix: "" },
+        { key: "years", label: "教學年資", suffix: "+" }
+      ]
     },
     about: {
       title: "關於我",
       paragraphs: [
         "江尚瑀擁有國立臺灣大學生醫電子與資訊學研究所博士學位，投入醫學影像人工智慧研究近十餘年，研究範疇涵蓋電腦輔助偵測系統到深度學習診斷模型，並在多本同儕審查期刊（包含數篇Q1等級）發表研究成果。",
         "自2019年起橫跨大學、政府機關與產業界擔任人工智慧講師，教授機器學習、生成式人工智慧與應用AI課程。目前研究聚焦於大型語言模型、檢索增強生成（RAG）與多模態人工智慧。"
-      ]
-    },
-    skills: {
-      title: "技能",
-      groups: [
-        { name: "研究領域", items: [
-          "人工智慧、機器學習、深度學習與生成式人工智慧",
-          "醫學影像處理、電腦輔助診斷、自然語言處理與大型語言模型",
-          "檢索增強生成（RAG）、知識庫問答系統與多模態／跨模態學習"
-        ] },
-        { name: "程式語言", items: ["Python", "C#", "C/C++", "R", "MATLAB"] },
-        { name: "AI／機器學習框架", items: ["PyTorch", "TensorFlow", "Scikit-learn", "LangChain", "LlamaIndex"] },
-        { name: "雲端平台與工具", items: ["Azure AI", "Azure OpenAI", "GitHub", "Docker", "Travis CI"] },
-        { name: "網頁開發", items: ["HTML", "CSS", "JavaScript"] }
       ]
     },
     education: {
@@ -309,6 +327,20 @@ const SITE_DATA = {
             { tag: "", text: "科技部大專學生研究計畫　MOST 103-2815-C-130-108-E" }
           ]
         }
+      ]
+    },
+    skills: {
+      title: "技能",
+      groups: [
+        { name: "研究領域", items: [
+          "人工智慧、機器學習、深度學習與生成式人工智慧",
+          "醫學影像處理、電腦輔助診斷、自然語言處理與大型語言模型",
+          "檢索增強生成（RAG）、知識庫問答系統與多模態／跨模態學習"
+        ] },
+        { name: "程式語言", items: ["Python", "C#", "C/C++", "R", "MATLAB"] },
+        { name: "AI／機器學習框架", items: ["PyTorch", "TensorFlow", "Scikit-learn", "LangChain", "LlamaIndex"] },
+        { name: "雲端平台與工具", items: ["Azure AI", "Azure OpenAI", "GitHub", "Docker", "Travis CI"] },
+        { name: "網頁開發", items: ["HTML", "CSS", "JavaScript"] }
       ]
     },
     experience: {

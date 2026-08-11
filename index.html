@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>document.documentElement.classList.add("js");</script>
   <title>Shang-Yu Chiang — AI Researcher &amp; Lecturer</title>
   <meta name="description" content="Shang-Yu Chiang (江尚瑀) — AI researcher and lecturer specializing in medical imaging AI, deep learning, and LLM/RAG applications.">
   <meta property="og:title" content="Shang-Yu Chiang — AI Researcher &amp; Lecturer">
@@ -14,7 +15,7 @@
 </head>
 <body>
   <noscript>
-    <p style="max-width:960px;margin:2rem auto;padding:0 1.5rem;font-family:sans-serif;">
+    <p style="max-width:1040px;margin:2rem auto;padding:0 1.5rem;font-family:sans-serif;">
       Shang-Yu Chiang (江尚瑀) — AI Researcher &amp; Lecturer.
       This site requires JavaScript. Contact: <a href="mailto:shelly200318@hotmail.com.tw">shelly200318@hotmail.com.tw</a>
       · <a href="https://github.com/ShangYuChiang">GitHub</a>
@@ -22,6 +23,7 @@
     </p>
   </noscript>
   <header class="navbar">
+    <div class="progress-bar" id="progress-bar" aria-hidden="true"></div>
     <a href="#hero" class="nav-brand">Shang-Yu Chiang</a>
     <nav class="nav-links" id="nav-links"></nav>
     <div class="nav-controls">
@@ -32,6 +34,7 @@
   </header>
   <main>
     <section id="hero"></section>
+    <section id="stats" aria-label="Highlights"></section>
     <section id="about"></section>
     <section id="education"></section>
     <section id="skills"></section>
@@ -43,6 +46,9 @@
     <section id="contact"></section>
   </main>
   <footer class="footer" id="footer"></footer>
+  <button id="back-to-top" class="back-to-top" aria-label="Back to top" type="button">
+    <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3.5a.75.75 0 0 1 .53.22l5 5a.75.75 0 1 1-1.06 1.06L8.75 6.06V12a.75.75 0 0 1-1.5 0V6.06L3.53 9.78a.75.75 0 0 1-1.06-1.06l5-5A.75.75 0 0 1 8 3.5z"/></svg>
+  </button>
   <script src="js/data.js"></script>
   <script src="js/main.js"></script>
 </body>
