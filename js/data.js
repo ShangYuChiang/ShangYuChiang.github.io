@@ -152,7 +152,7 @@ const SITE_DATA = {
           ]
         },
         {
-          role: "Machine Learning Teaching Assistant",
+          role: "Machine Learning Mentor",
           org: "WeHelp Academy",
           period: "2025 – Present",
           location: "Taiwan (Remote)",
@@ -430,12 +430,12 @@ const SITE_DATA = {
           ]
         },
         {
-          role: "機器學習助教",
+          role: "機器學習導師",
           org: "WeHelp Academy",
           period: "2025年 – 至今",
           location: "台灣（遠距）",
           bullets: [
-            "擔任深度學習領域助教，協助三屆轉職學員完成為期 26 週、分三階段的密集訓練，從神經網路基礎到個人專題實作。",
+            "擔任深度學習領域導師，協助三屆轉職學員完成為期 26 週、分三階段的密集訓練，從神經網路基礎到個人專題實作。",
             "於 Discord 社群提供一對一技術答疑，維持兩個工作日內回覆學員提問。",
             "主講三場技術分享：研究中導入 AI 的實務作法、自定義物件分類的建模準度優化，以及以 PyTorch 拆解影像辨識模型的完整訓練流程（涵蓋資料處理與批次載入、CNN 前向傳播、損失函數、反向傳播與梯度更新、Optimizer、資料增強與預訓練權重，以及模型評估的常見判讀偏誤）。"
           ]
