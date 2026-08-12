@@ -100,6 +100,28 @@ const SITE_DATA = {
           ]
         },
         {
+          role: "Machine Learning Teaching Assistant",
+          org: "WeHelp Academy",
+          period: "2025 – Present",
+          location: "Taiwan (Remote)",
+          bullets: [
+            "Supported three cohorts in the deep learning track of a 26-week, three-stage intensive career-transition program, assisting students from neural network fundamentals through to independent capstone projects.",
+            "Provided one-on-one technical guidance to students on Discord throughout each cohort, maintaining a two-day response commitment.",
+            "Delivered three technical talks on applied deep learning: integrating AI into research workflows, improving model accuracy for custom object classification, and an end-to-end PyTorch walkthrough of an image-classification training pipeline (covering data loading, CNN forward pass, loss computation, backpropagation, optimizers, augmentation, transfer learning, and common evaluation pitfalls)."
+          ]
+        },
+        {
+          role: "Teaching Assistant",
+          org: "TibaMe (Wistron Group)",
+          period: "2022 – Present",
+          location: "Taiwan",
+          bullets: [
+            "Supported 27 cohorts (2nd–28th) of the AI Medical Image Analysis program, an 8-week live-instruction course covering Python, OpenCV, CNN/RNN, YOLOv4, semantic segmentation, DICOM handling, and 3D medical image analysis.",
+            "Supported 30 cohorts (11th–40th) of the AI Data Scientist program, an 18-week curriculum, assisting on the autonomous-driving and tumor tissue image recognition project modules.",
+            "Answered student questions in course discussion forums and provided assignment feedback across 57 cohorts in total."
+          ]
+        },
+        {
           role: "AI Lecturer",
           org: "Multiple Universities, Government Agencies & Enterprises",
           period: "Sep 2019 – Present",
@@ -353,6 +375,28 @@ const SITE_DATA = {
           location: "台灣台北",
           bullets: [
             "於國立臺灣大學生醫電子與資訊學研究所持續進行醫學影像人工智慧與多模態深度學習研究。"
+          ]
+        },
+        {
+          role: "機器學習助教",
+          org: "WeHelp Academy",
+          period: "2025年 – 至今",
+          location: "台灣（遠距）",
+          bullets: [
+            "擔任深度學習領域助教，協助三屆轉職學員完成為期 26 週、分三階段的密集訓練，從神經網路基礎到個人專題實作。",
+            "於 Discord 社群提供一對一技術答疑，維持兩個工作日內回覆學員提問。",
+            "主講三場技術分享：研究中導入 AI 的實務作法、自定義物件分類的建模準度優化，以及以 PyTorch 拆解影像辨識模型的完整訓練流程（涵蓋資料處理與批次載入、CNN 前向傳播、損失函數、反向傳播與梯度更新、Optimizer、資料增強與預訓練權重，以及模型評估的常見判讀偏誤）。"
+          ]
+        },
+        {
+          role: "助教",
+          org: "緯育TibaMe",
+          period: "2022年 – 至今",
+          location: "台灣",
+          bullets: [
+            "擔任「AI 醫學影像分析學程」第 2–28 期助教（共 27 期），課程為期 8 週，涵蓋 Python、OpenCV、CNN/RNN、YOLOv4、語意切割、DICOM 與 3D 醫學影像分析。",
+            "擔任「AI 資料科學家學程」第 11–40 期助教（共 30 期），課程為期 18 週，負責「自駕車應用」與「辨識腫瘤組織影像」兩個實作專題。",
+            "於課程討論區回覆學員提問並提供作業回饋，累計協助 57 期學員。"
           ]
         },
         {
