@@ -208,28 +208,28 @@ const SITE_DATA = {
         {
           name: "GFF3toolkit",
           desc: "Contributed as the 4th-ranked contributor (48 commits) to USDA National Agricultural Library's open-source toolkit for processing GFF3 genome annotation files.",
-          tags: ["Python", "Bioinformatics"],
+          tags: ["Python", "Bioinformatics", "GFF3", "Genome Annotation"],
           linkLabel: "View on GitHub",
           linkUrl: "https://github.com/NAL-i5K/GFF3toolkit"
         },
         {
           name: "coordinates_conversion",
           desc: "Contributed as the 3rd-ranked contributor to USDA NAL's tool for translating sequence IDs and genomic coordinates across file formats (GFF3, BAM, BED, Biograph).",
-          tags: ["Python", "Genomics"],
+          tags: ["Python", "Genomics", "GFF3 / BAM / BED", "Data Conversion"],
           linkLabel: "View on GitHub",
           linkUrl: "https://github.com/NAL-i5K/coordinates_conversion"
         },
         {
           name: "PBCS-ConvNeXt",
           desc: "A ConvNeXt-based deep learning model for automatic diagnosis of non-alcoholic fatty liver disease in abdominal ultrasound images, published in a Q1 journal (2025).",
-          tags: ["Deep Learning", "Medical Imaging", "PyTorch"],
+          tags: ["PyTorch", "Deep Learning", "ConvNeXt", "Medical Imaging", "Image Classification"],
           linkLabel: "View on Google Scholar",
           linkUrl: "https://scholar.google.com/scholar?q=PBCS-ConvNeXt"
         },
         {
           name: "NER for Biological Text",
           desc: "A spaCy-based named entity recognition system for tagging gene and species names in biological abstracts.",
-          tags: ["NLP", "spaCy"],
+          tags: ["Python", "spaCy", "NLP", "Named Entity Recognition"],
           linkLabel: "View on GitHub",
           linkUrl: "https://github.com/ShangYuChiang/NER"
         },
@@ -486,28 +486,28 @@ const SITE_DATA = {
         {
           name: "GFF3toolkit",
           desc: "以第4大貢獻者身分（48次commits）參與美國農業部國家農業圖書館（USDA NAL）開源工具開發，用於處理GFF3基因體註解檔案",
-          tags: ["Python", "生物資訊"],
+          tags: ["Python", "生物資訊", "GFF3", "基因體註解"],
           linkLabel: "查看 GitHub",
           linkUrl: "https://github.com/NAL-i5K/GFF3toolkit"
         },
         {
           name: "coordinates_conversion",
           desc: "以第3大貢獻者身分參與USDA NAL工具開發，用於在GFF3、BAM、BED、Biograph等檔案格式間轉換序列ID與基因體座標",
-          tags: ["Python", "基因體學"],
+          tags: ["Python", "基因體學", "GFF3 / BAM / BED", "格式轉換"],
           linkLabel: "查看 GitHub",
           linkUrl: "https://github.com/NAL-i5K/coordinates_conversion"
         },
         {
           name: "PBCS-ConvNeXt",
           desc: "以ConvNeXt為基礎的深度學習模型，用於腹部超音波影像中非酒精性脂肪肝之自動診斷，研究成果發表於2025年Q1期刊",
-          tags: ["深度學習", "醫學影像", "PyTorch"],
+          tags: ["PyTorch", "深度學習", "ConvNeXt", "醫學影像", "影像分類"],
           linkLabel: "在 Google Scholar 查看",
           linkUrl: "https://scholar.google.com/scholar?q=PBCS-ConvNeXt"
         },
         {
           name: "生物文本命名實體辨識（NER）",
           desc: "以spaCy建構的命名實體辨識系統，用於標記生物學摘要中的基因與物種名稱",
-          tags: ["自然語言處理", "spaCy"],
+          tags: ["Python", "spaCy", "自然語言處理", "命名實體辨識"],
           linkLabel: "查看 GitHub",
           linkUrl: "https://github.com/ShangYuChiang/NER"
         },
