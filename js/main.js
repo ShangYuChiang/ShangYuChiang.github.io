@@ -7,7 +7,7 @@ const ICONS = {
 const LINKS = {
   github: "https://github.com/ShangYuChiang",
   linkedin: "https://www.linkedin.com/in/%E5%B0%9A%E7%91%80-%E6%B1%9F-859833100/",
-  email: "mailto:shelly200318@hotmail.com.tw"
+  email: "mailto:chiangshangyu8278@gmail.com"
 };
 
 /* ===== Animation state (module-level so re-renders never spawn duplicate
@@ -222,7 +222,7 @@ function renderContact(t) {
     <h2 class="section-title reveal">${t.contact.title}</h2>
     <p class="about-p reveal">${t.contact.text}</p>
     <div class="hero-links reveal">
-      <a href="${LINKS.email}">${ICONS.email} shelly200318@hotmail.com.tw</a>
+      <a href="${LINKS.email}">${ICONS.email} chiangshangyu8278@gmail.com</a>
       <a href="${LINKS.github}" target="_blank" rel="noopener">${ICONS.github} GitHub</a>
       <a href="${LINKS.linkedin}" target="_blank" rel="noopener">${ICONS.linkedin} LinkedIn</a>
     </div>`;
