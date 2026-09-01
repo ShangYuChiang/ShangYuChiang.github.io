@@ -226,13 +226,6 @@ const SITE_DATA = {
           linkLabel: "View on GitHub",
           linkUrl: "https://github.com/ShangYuChiang/NER"
         },
-        {
-          name: "IMLP347 Course Materials",
-          desc: "Teaching materials for a machine learning course offered through NTU's Information Systems Training Program (347th cohort).",
-          tags: ["Teaching", "Python"],
-          linkLabel: "View on GitHub",
-          linkUrl: "https://github.com/ShangYuChiang/IMLP347"
-        }
       ]
     },
     publications: {
@@ -504,13 +497,6 @@ const SITE_DATA = {
           linkLabel: "查看 GitHub",
           linkUrl: "https://github.com/ShangYuChiang/NER"
         },
-        {
-          name: "IMLP347 課程教材",
-          desc: "國立臺灣大學資工訓練班第347期機器學習課程教材",
-          tags: ["教學", "Python"],
-          linkLabel: "查看 GitHub",
-          linkUrl: "https://github.com/ShangYuChiang/IMLP347"
-        }
       ]
     },
     publications: {
