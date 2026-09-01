@@ -189,6 +189,7 @@ function renderProjects(t) {
       ${t.projects.cards.map((c, idx) => `
         <div class="card proj-card${revealAttr(idx)}">
           <h3>${c.name}</h3>
+          ${c.image ? `<div class="proj-shot"><img src="${c.image}" alt="${c.name}" loading="lazy"></div>` : ""}
           <p>${c.desc}</p>
           <div class="tag-list">${c.tags.map(tag => `<span class="tag">${tag}</span>`).join("")}</div>
           <a href="${c.linkUrl}" target="_blank" rel="noopener">${c.linkLabel} →</a>

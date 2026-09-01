@@ -211,18 +211,49 @@ html.js .hero-caret { animation: caretBlink 1s step-end infinite; }
   display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem;
 }
 .proj-grid {
-  display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem;
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)); gap: 1.4rem;
 }
-.tag-list { display: flex; flex-wrap: wrap; gap: .4rem; margin-top: .5rem; }
+.tag-list { display: flex; flex-wrap: wrap; gap: .45rem; margin-top: .5rem; }
 .tag {
   background: var(--bg-soft); border: 1px solid var(--border);
-  border-radius: 999px; padding: .1rem .65rem;
+  border-radius: 999px; padding: .2rem .7rem;
   font-size: .8rem; color: var(--text-muted);
   transition: background .22s ease, transform .22s ease;
 }
 .tag:hover { background: var(--accent-soft); transform: translateY(-2px); }
-.proj-card p { color: var(--text-muted); font-size: .92rem; margin: .4rem 0; }
-.proj-card a { display: inline-block; margin-top: .7rem; font-size: .9rem; }
+/* ===== Project cards ===== */
+.proj-card {
+  display: flex; flex-direction: column;
+  padding: 1.5rem;
+}
+.proj-card h3 {
+  font-size: 1.12rem; letter-spacing: .01em; margin-bottom: 0;
+}
+
+/* 圖片區：標題下、內文上。沒有提供圖片時整塊不會輸出，不會留下空框 */
+.proj-shot {
+  margin: 1rem 0 1.1rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--bg-soft);
+  aspect-ratio: 16 / 9;
+}
+.proj-shot img {
+  width: 100%; height: 100%; object-fit: cover; display: block;
+}
+
+.proj-card p {
+  color: var(--text-muted);
+  font-size: .93rem;
+  line-height: 1.78;
+  margin: 1rem 0 0;
+  flex: 1;
+}
+.proj-card .tag-list { margin-top: 1.1rem; }
+.proj-card a {
+  display: inline-block; margin-top: 1.1rem; font-size: .9rem; font-weight: 600;
+}
 
 /* ===== Education ===== */
 .edu-grid { display: flex; flex-direction: column; gap: 1rem; }
