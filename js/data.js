@@ -199,6 +199,13 @@ const SITE_DATA = {
       title: "Projects",
       cards: [
         {
+          name: "Focus Compass",
+          desc: "An offline-first Windows desktop app that breaks large goals into 25-minute subtasks with explicit acceptance criteria, tracking dependencies, sequential unlocking, parent-child status sync, and estimated-versus-actual effort alongside focus timing, Gantt charts, and daily/weekly/monthly reviews. Built on a versioned SQLite schema with migrations, snapshot history, JSON backup and restore, and CSV/JSON/Markdown export, with cross-session timer recovery and statistics reconciliation that keep records correct across app restarts and system clock changes.",
+          tags: ["React 19", "TypeScript", "Tauri 2", "Rust", "SQLite"],
+          linkLabel: "View on GitHub",
+          linkUrl: "https://github.com/ShangYuChiang/focus-compass"
+        },
+        {
           name: "GFF3toolkit",
           desc: "Contributed as the 4th-ranked contributor (48 commits) to USDA National Agricultural Library's open-source toolkit for processing GFF3 genome annotation files.",
           tags: ["Python", "Bioinformatics"],
@@ -469,6 +476,13 @@ const SITE_DATA = {
     projects: {
       title: "專案",
       cards: [
+        {
+          name: "步步 Focus Compass",
+          desc: "離線優先的 Windows 桌面應用，以規則式工作流引擎將大型目標拆解為具驗收條件的 25 分鐘子任務，支援任務相依、循序解鎖、父子狀態同步與預估／實際工時追蹤，並整合專注計時、甘特圖與日／週／月復盤。採版本化 SQLite 資料架構與 migration 機制，具備歷史快照、JSON 安全備份還原與 CSV／JSON／Markdown 匯出，並實作跨工作階段計時恢復與統計一致性校正，避免關閉程式或修改系統時間造成紀錄錯誤",
+          tags: ["React 19", "TypeScript", "Tauri 2", "Rust", "SQLite"],
+          linkLabel: "查看 GitHub",
+          linkUrl: "https://github.com/ShangYuChiang/focus-compass"
+        },
         {
           name: "GFF3toolkit",
           desc: "以第4大貢獻者身分（48次commits）參與美國農業部國家農業圖書館（USDA NAL）開源工具開發，用於處理GFF3基因體註解檔案",
