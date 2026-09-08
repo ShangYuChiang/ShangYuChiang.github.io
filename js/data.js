@@ -200,7 +200,8 @@ const SITE_DATA = {
       cards: [
         {
           name: "Focus Compass",
-          image: "",
+          image: "assets/projects/focus-compass.svg",
+          imageAlt: "Focus Compass Today view with four life-axis task cards and a 25-minute focus timer",
           desc: "An offline-first Windows desktop app that breaks large goals into 25-minute subtasks with explicit acceptance criteria, tracking dependencies, sequential unlocking, parent-child status sync, and estimated-versus-actual effort alongside focus timing, Gantt charts, and daily/weekly/monthly reviews. Built on a versioned SQLite schema with migrations, snapshot history, JSON backup and restore, and CSV/JSON/Markdown export, with cross-session timer recovery and statistics reconciliation that keep records correct across app restarts and system clock changes.",
           tags: ["React 19", "TypeScript", "Tauri 2", "Rust", "SQLite"],
           linkLabel: "View on GitHub",
@@ -208,7 +209,8 @@ const SITE_DATA = {
         },
         {
           name: "GFF3toolkit",
-          image: "",
+          image: "assets/projects/gff3toolkit.svg",
+          imageAlt: "A real GFF3 annotation record passing through validation, sorting, and quality-control checks",
           desc: "Contributed as the 4th-ranked contributor (48 commits) to USDA National Agricultural Library's open-source toolkit for processing GFF3 genome annotation files.",
           tags: ["Python", "Bioinformatics", "GFF3", "Genome Annotation"],
           linkLabel: "View on GitHub",
@@ -216,7 +218,8 @@ const SITE_DATA = {
         },
         {
           name: "coordinates_conversion",
-          image: "",
+          image: "assets/projects/coordinates-conversion.svg",
+          imageAlt: "Genomic coordinates translated between GFF3, BED, BAM, and Biograph formats",
           desc: "Contributed as the 3rd-ranked contributor to USDA NAL's tool for translating sequence IDs and genomic coordinates across file formats (GFF3, BAM, BED, Biograph).",
           tags: ["Python", "Genomics", "GFF3 / BAM / BED", "Data Conversion"],
           linkLabel: "View on GitHub",
@@ -224,7 +227,8 @@ const SITE_DATA = {
         },
         {
           name: "PBCS-ConvNeXt",
-          image: "",
+          image: "assets/projects/pbcs-convnext.svg",
+          imageAlt: "De-identified liver ultrasound region of interest, ConvNeXt model pipeline, and AUC 0.88 result",
           desc: "A ConvNeXt-based deep learning model for automatic diagnosis of non-alcoholic fatty liver disease in abdominal ultrasound images, published in a Q1 journal (2025).",
           tags: ["PyTorch", "Deep Learning", "ConvNeXt", "Medical Imaging", "Image Classification"],
           linkLabel: "View on Google Scholar",
@@ -232,7 +236,8 @@ const SITE_DATA = {
         },
         {
           name: "NER for Biological Text",
-          image: "",
+          image: "assets/projects/ner-biological-text.svg",
+          imageAlt: "Biological abstract with gene and species entities highlighted as spaCy NER output",
           desc: "A spaCy-based named entity recognition system for tagging gene and species names in biological abstracts.",
           tags: ["Python", "spaCy", "NLP", "Named Entity Recognition"],
           linkLabel: "View on GitHub",
@@ -483,7 +488,8 @@ const SITE_DATA = {
       cards: [
         {
           name: "步步 Focus Compass",
-          image: "",
+          image: "assets/projects/focus-compass.svg",
+          imageAlt: "Focus Compass 今日頁面，呈現四個人生主軸任務卡與 25 分鐘專注計時器",
           desc: "離線優先的 Windows 桌面應用，以規則式工作流引擎將大型目標拆解為具驗收條件的 25 分鐘子任務，支援任務相依、循序解鎖、父子狀態同步與預估／實際工時追蹤，並整合專注計時、甘特圖與日／週／月復盤。採版本化 SQLite 資料架構與 migration 機制，具備歷史快照、JSON 安全備份還原與 CSV／JSON／Markdown 匯出，並實作跨工作階段計時恢復與統計一致性校正，避免關閉程式或修改系統時間造成紀錄錯誤",
           tags: ["React 19", "TypeScript", "Tauri 2", "Rust", "SQLite"],
           linkLabel: "查看 GitHub",
@@ -491,7 +497,8 @@ const SITE_DATA = {
         },
         {
           name: "GFF3toolkit",
-          image: "",
+          image: "assets/projects/gff3toolkit.svg",
+          imageAlt: "真實 GFF3 註解紀錄依序通過驗證、排序與品質檢查",
           desc: "以第4大貢獻者身分（48次commits）參與美國農業部國家農業圖書館（USDA NAL）開源工具開發，用於處理GFF3基因體註解檔案",
           tags: ["Python", "生物資訊", "GFF3", "基因體註解"],
           linkLabel: "查看 GitHub",
@@ -499,7 +506,8 @@ const SITE_DATA = {
         },
         {
           name: "coordinates_conversion",
-          image: "",
+          image: "assets/projects/coordinates-conversion.svg",
+          imageAlt: "基因組座標在 GFF3、BED、BAM 與 Biograph 格式之間轉換",
           desc: "以第3大貢獻者身分參與USDA NAL工具開發，用於在GFF3、BAM、BED、Biograph等檔案格式間轉換序列ID與基因體座標",
           tags: ["Python", "基因體學", "GFF3 / BAM / BED", "格式轉換"],
           linkLabel: "查看 GitHub",
@@ -507,7 +515,8 @@ const SITE_DATA = {
         },
         {
           name: "PBCS-ConvNeXt",
-          image: "",
+          image: "assets/projects/pbcs-convnext.svg",
+          imageAlt: "去識別化肝臟超音波感興趣區域、ConvNeXt 模型流程與 AUC 0.88 結果",
           desc: "以ConvNeXt為基礎的深度學習模型，用於腹部超音波影像中非酒精性脂肪肝之自動診斷，研究成果發表於2025年Q1期刊",
           tags: ["PyTorch", "深度學習", "ConvNeXt", "醫學影像", "影像分類"],
           linkLabel: "在 Google Scholar 查看",
@@ -515,7 +524,8 @@ const SITE_DATA = {
         },
         {
           name: "生物文本命名實體辨識（NER）",
-          image: "",
+          image: "assets/projects/ner-biological-text.svg",
+          imageAlt: "生物醫學摘要中的基因與物種實體，呈現為 spaCy NER 標註結果",
           desc: "以spaCy建構的命名實體辨識系統，用於標記生物學摘要中的基因與物種名稱",
           tags: ["Python", "spaCy", "自然語言處理", "命名實體辨識"],
           linkLabel: "查看 GitHub",
